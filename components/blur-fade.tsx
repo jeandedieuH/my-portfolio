@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
@@ -14,7 +15,8 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: any ;
+
+  inViewMargin?: any;
   blur?: string;
 }
 const BlurFade = ({

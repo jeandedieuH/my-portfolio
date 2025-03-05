@@ -1,21 +1,12 @@
 import React, { useEffect } from "react";
 
-/**
- * Hook: useOutsideClick
- *
- * This hook listens for clicks outside a specified DOM element and invokes a callback function.
- *
- * Source: [https://ui.aceternity.com/components/expandable-card by Manu Arora]
- *
- */
-
 export const useOutsideClick = (
   ref: React.RefObject<HTMLDivElement>,
-  callback: Function,
+  callback: (event: MouseEvent | TouchEvent) => void
 ) => {
   useEffect(() => {
-    const listener = (event: any) => {
-      if (!ref.current || ref.current.contains(event.target)) {
+    const listener = (event: MouseEvent | TouchEvent) => {
+      if (!ref.current || ref.current.contains(event.target as Node)) {
         return;
       }
       callback(event);
