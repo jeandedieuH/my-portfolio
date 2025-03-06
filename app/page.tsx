@@ -34,7 +34,7 @@ const StackedMenu: React.FC = () => {
     },
     {
       id: "page3",
-      title: "PROJECT",
+      title: "PROJECTS",
       background: "[#6998AB]",
       content: (
         <div className="mb-10 pb-16">
