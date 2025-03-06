@@ -45,7 +45,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <BlurFade delay={BLUR_DELAY * 16}>
               <div className="p-4 rounded-lg border border-border bg-card hover:bg-accent transition-colors">
-                <h3 className="text-xl font-medium mb-2 text-gray-800">
+                <h3 className="text-xl font-medium mb-2 text-white">
                   Frontend Development
                 </h3>
                 <p className="text-muted-foreground">
@@ -56,7 +56,7 @@ function Home() {
             </BlurFade>
             <BlurFade delay={BLUR_DELAY * 17}>
               <div className="p-4 rounded-lg border border-border bg-card hover:bg-accent transition-colors">
-                <h3 className="text-xl font-medium mb-2 text-gray-800">
+                <h3 className="text-xl font-medium mb-2 text-white">
                   Backend Development
                 </h3>
                 <p className="text-muted-foreground">
@@ -67,7 +67,7 @@ function Home() {
             </BlurFade>
             <BlurFade delay={BLUR_DELAY * 18}>
               <div className="p-4 rounded-lg border border-border bg-card hover:bg-accent transition-colors">
-                <h3 className="text-xl font-medium mb-2 text-gray-800">
+                <h3 className="text-xl font-medium mb-2 text-white">
                   Mobile Development
                 </h3>
                 <p className="text-muted-foreground">
