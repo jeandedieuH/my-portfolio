@@ -4,7 +4,7 @@ export const DATA = {
   personalData: {
     name: "Jean de Dieu HAGENIMANA",
     description:
-      "I'm a passionate Full-Stack Developer with a love for coding, learning, and exploring the latest in web technologies, I specialize in creating robust, scalable applications using the MERN, PERN stacks and other modern technologies like Next.js, vue.js and nuxt.js.",
+      "I'm a passionate Full-Stack Developer with a love for coding, learning, and exploring the latest in web technologies, I specialize in creating robust, scalable applications using the MERN, PERN stacks and other modern technologies like Next.js, react native and electron.js.",
     skill: [
       "Javascript",
       "Php",
@@ -19,11 +19,13 @@ export const DATA = {
       "PostgreSQL",
       "MySQL",
       "Express.js",
+      "Nest.js",
       "MongoDB",
       "Docker",
       "Prisma",
       "Wordpress",
       "Tailwind CSS",
+      "Git",
     ],
     email: "jdhagena77@gmail.com",
     phone: "+250784239311",
@@ -61,7 +63,7 @@ export const DATA = {
   experiences: [
     {
       company: "Self-employed",
-      role: "Full Stack Developer",
+      role: "Full-Stack Developer",
       startDate: "Feb 2024",
       endDate: "Present",
       location: "Kigali, Rwanda",
@@ -158,7 +160,7 @@ export const DATA = {
         "react-router",
         "Styled components",
       ],
-      role: "Full Stack Developer",
+      role: "Full-Stack Developer",
     },
     {
       name: "Social Media",
@@ -181,7 +183,7 @@ export const DATA = {
         "React Query",
         "Shadcn",
       ],
-      role: "Full Stack Developer",
+      role: "Full-Stack Developer",
       code: "https://github.com/jeandedieuH/snapgram",
     },
   ],
