@@ -1,5 +1,5 @@
 {
-  "name": "jdhagena-resume",
+  "name": "jdhagena-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-label": "^2.1.1",
-    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.4",
+    "@radix-ui/react-slot": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.16.4",
-    "lucide-react": "^0.469.0",
-    "next": "^15.2.4",
-    "next-themes": "^0.4.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-markdown": "^9.0.3",
-    "remark-gfm": "^4.0.0",
-    "tailwind-merge": "^2.6.0",
+    "framer-motion": "^12.9.2",
+    "lucide-react": "^0.503.0",
+    "next": "^15.3.1",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.2.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
@@ -30,9 +30,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "^15.2.4",
+    "eslint-config-next": "^15.3.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^4.1.4",
     "typescript": "^5"
   }
 }

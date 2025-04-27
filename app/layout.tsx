@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Resume By Jean de Dieu HAGENIMANA",
-  description: "Resume of Jean de Dieu HAGENIMANA",
+  title: "Portfolio By Jean de Dieu HAGENIMANA",
+  description: "Portfolio of Jean de Dieu HAGENIMANA",
 };
 
 export default function RootLayout({
